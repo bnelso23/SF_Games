@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r6">
+    <folder id="0">
+        <file id="0" name="coin og1 a.png" width="200" height="176" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="coin og1 b.png" width="204" height="176" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="coin og5 1.png" width="202" height="176" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="coin og5 b.png" width="202" height="176" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="coin og5 a.png" width="202" height="176" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_coin og1 a" realname="coin og1 a" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+                <i folder="0" file="3"/>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="coin og1 a" folder="0" file="2" abs_x="-101" abs_y="88" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="253">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="501">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="749">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="915">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="coin og1 a">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+                <key id="1" time="253" spin="0">
+                    <object folder="0" file="3" angle="0" scale_x="0.01"/>
+                </key>
+                <key id="2" time="501" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="3" time="749" spin="0">
+                    <object folder="0" file="4" angle="0" scale_x="0.01"/>
+                </key>
+                <key id="4" time="915" spin="0">
+                    <object folder="0" file="4" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

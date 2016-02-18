@@ -1,0 +1,268 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 5,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "coin og1 a",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 253
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 501
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 502
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 749
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 915
+							}
+						]
+					},
+					"name": "NewAnimation",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"scale_x": 0.01
+									},
+									"spin": 0,
+									"time": 253
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 501
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"scale_x": 0.996008
+									},
+									"spin": 0,
+									"time": 502
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"scale_x": 0.01
+									},
+									"spin": 0,
+									"time": 749
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 915
+								}
+							],
+							"name": "coin og1 a",
+							"obj": 0
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "entity_000",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						},
+						{
+							"file": 6,
+							"folder": 0
+						},
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "entity_000_coin og1 a",
+					"realname": "coin og1 a",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 176,
+					"id": 0,
+					"name": "coin og1 a.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 200
+				},
+				{
+					"height": 176,
+					"id": 1,
+					"name": "coin og1 b.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 204
+				},
+				{
+					"height": 176,
+					"id": 2,
+					"name": "coin og5 1.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 202
+				},
+				{
+					"height": 176,
+					"id": 3,
+					"name": "coin og5 b.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 202
+				},
+				{
+					"height": 176,
+					"id": 4,
+					"name": "coin og5 a.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 202
+				},
+				{
+					"height": 176,
+					"id": 5,
+					"name": "coin og10 a.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 202
+				},
+				{
+					"height": 176,
+					"id": 6,
+					"name": "coin og10 b.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 202
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r6",
+	"scon_version": "1.0"
+}
