@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1456006309
+#1456010782
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -29,11 +29,12 @@ images/coin100_entity_000_coinog1a-sheet0.png
 images/coin100_entity_000_coinog1a-sheet1.png
 images/tube_entity_000_hitterogbigtube-sheet0.png
 images/tube_entity_000_hitterogtube-sheet0.png
-images/monkeyscore_entity_000_monkeysign-sheet0.png
-images/monkeyscore_entity_000_monkeybody-sheet0.png
-images/monkeyscore_entity_000_monkeyarm2-sheet0.png
-images/monkeyscore_entity_000_monkeyarm1-sheet0.png
-images/monkeyscore_entity_000_monkeyhead-sheet0.png
+images/monkeysign_entity_000_monkeysign-sheet0.png
+images/monkeysign_entity_000_monkeysign-sheet1.png
+images/monkeysign_entity_000_monkeybody-sheet0.png
+images/monkeysign_entity_000_monkeyarm2-sheet0.png
+images/monkeysign_entity_000_monkeyarm1-sheet0.png
+images/monkeysign_entity_000_monkeyhead-sheet0.png
 images/sprite-sheet0.png
 images/coinbag-sheet0.png
 images/swingbtn-sheet0.png
@@ -43,6 +44,8 @@ images/minusbtn-sheet0.png
 images/sprite2-sheet0.png
 images/sprite3-sheet0.png
 images/sprite4-sheet0.png
+images/sprite5-sheet0.png
+images/sprite6-sheet0.png
 icon-16.png
 icon-32.png
 icon-114.png
@@ -68,6 +71,8 @@ tube.scml
 tube.scon
 monkeyscore.scml
 monkeyscore.scon
+monkeysign.scml
+monkeysign.scon
 html2canvas.min.js
 animate.css
 hmmg_layoutTransition.css
