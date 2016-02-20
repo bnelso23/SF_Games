@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r6">
+    <folder id="0">
+        <file id="0" name="hitter og big tube.png" width="191" height="409" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="hitter og tube.png" width="85" height="91" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="entity_000_hitter og big tube" realname="hitter og big tube" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_hitter og tube" realname="hitter og tube" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="10" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="-1.869158" y="-8.099688" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-8.914692" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="20" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="0.017634" y="14.541821" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="16.557006" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="30" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="0.017634" y="38.126727" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="37.311723" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="40" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="0.017634" y="56.051255" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="0.952213" y="56.179648" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="50" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="-0.925762" y="77.749369" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="75.990968" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="60" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="0.017634" y="96.617293" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="96.745685" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="70" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="0.017634" y="114.541821" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="115.61361" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="80" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="0.017634" y="138.126727" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="138.255119" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="90" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="0.008817" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.008817" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="-0.925762" y="159.82484" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="161.840025" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="9" name="100" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="hitter og big tube" folder="0" file="0" abs_x="-51.401869" abs_y="222.429907" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="hitter og tube" folder="0" file="1" abs_x="-0.934579" abs_y="-94.40134" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="399">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="hitter og big tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-51.401869" y="222.429907" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="hitter og tube">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-94.40134" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="1" x="-0.925762" y="191.900312" angle="0"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="192.9721" angle="0"/>
+                </key>
+                <key id="3" time="399" spin="0">
+                    <object folder="0" file="1" x="-0.934579" y="-92.834891" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
